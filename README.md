@@ -1,5 +1,7 @@
 # My LunarVim Config
 
+Mostly based on [ChristianChiarulli/nvim](https://github.com/ChristianChiarulli/lvim). I've added some of my own plugins and configurations.
+
 ## Get healthy
 
 Open `nvim` and enter the following:

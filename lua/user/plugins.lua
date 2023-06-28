@@ -1,5 +1,6 @@
 -- Additional Plugins
 lvim.plugins = {
+  "renerocksai/telekasten.nvim",
   {
     "mawkler/modicator.nvim",
     event = "ColorScheme",
@@ -8,14 +9,7 @@ lvim.plugins = {
   -- {
   --   dir = "/Users/chris/Repos/bookmark.nvim",
   -- },
-  "andymass/vim-matchup",
   "lunarvim/synthwave84.nvim",
-  {
-    "kndndrj/nvim-dbee",
-    build = function()
-      require("dbee").install()
-    end,
-  },
   "kkharji/sqlite.lua",
   { url = "git@github.com:ChristianChiarulli/bookmark.nvim.git" },
   { url = "git@github.com:ChristianChiarulli/onedark.nvim.git" },
@@ -50,7 +44,7 @@ lvim.plugins = {
   "kevinhwang91/nvim-bqf",
   "is0n/jaq-nvim",
   "nacro90/numb.nvim",
-  "TimUntersberger/neogit",
+  "kdheepak/lazygit.nvim",
   "sindrets/diffview.nvim",
   "simrat39/rust-tools.nvim",
   "olexsmir/gopher.nvim",
@@ -58,7 +52,7 @@ lvim.plugins = {
   "jose-elias-alvarez/typescript.nvim",
   "mxsdev/nvim-dap-vscode-js",
   "petertriho/nvim-scrollbar",
-  -- "renerocksai/calendar-vim",
+  "renerocksai/calendar-vim",
   {
     "saecki/crates.nvim",
     version = "v0.3.0",

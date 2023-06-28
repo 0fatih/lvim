@@ -41,6 +41,7 @@ formatters.setup {
   { command = "stylua", filetypes = { "lua" } },
   { command = "shfmt", filetypes = { "sh", "zsh" } },
   { command = "prettier", filetypes = { "css", "javascript", "javascriptreact", "typescript", "typescriptreact" } },
+  { command = "rustfmt", filetypes = { "rust" } },
 }
 
 -- lvim.lsp.on_attach_callback = function(client, bufnr)
